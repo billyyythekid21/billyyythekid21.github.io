@@ -1,0 +1,154 @@
+----------
+
+Fri Apr 07 2023 14:00:02 GMT+1000 (Australian Eastern Standard Time)
+
+warning: adding embedded git repository: billyyythekid21.github.io
+
+
+----------
+
+Fri Apr 07 2023 14:00:02 GMT+1000 (Australian Eastern Standard Time)
+
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> billyyythekid21.github.io
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached billyyythekid21.github.io
+hint: 
+hint: See "git help submodule" for more information.
+warning: in the working copy of 'export/about.html', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Fri Apr 07 2023 14:00:02 GMT+1000 (Australian Eastern Standard Time)
+
+warning: in the working copy of 'export/assets/bootstrap/css/bootstrap.min.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Fri Apr 07 2023 14:00:02 GMT+1000 (Australian Eastern Standard Time)
+
+warning: in the working copy of 'export/assets/bootstrap/js/bootstrap.min.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Fri Apr 07 2023 14:00:02 GMT+1000 (Australian Eastern Standard Time)
+
+warning: in the working copy of 'export/assets/css/Articles-Cards-images.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Fri Apr 07 2023 14:00:02 GMT+1000 (Australian Eastern Standard Time)
+
+warning: in the working copy of 'export/assets/css/gallerytrack.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Fri Apr 07 2023 14:00:02 GMT+1000 (Australian Eastern Standard Time)
+
+warning: in the working copy of 'export/assets/fonts/font-awesome.min.css', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Fri Apr 07 2023 14:00:02 GMT+1000 (Australian Eastern Standard Time)
+
+warning: in the working copy of 'export/assets/fonts/fontawesome-webfont.svg', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Fri Apr 07 2023 14:00:03 GMT+1000 (Australian Eastern Standard Time)
+
+warning: in the working copy of 'export/assets/js/grayscale.js', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Fri Apr 07 2023 14:00:03 GMT+1000 (Australian Eastern Standard Time)
+
+warning: in the working copy of 'export/gallery.html', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Fri Apr 07 2023 14:00:03 GMT+1000 (Australian Eastern Standard Time)
+
+warning: in the working copy of 'export/index.html', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Fri Apr 07 2023 14:00:03 GMT+1000 (Australian Eastern Standard Time)
+
+warning: in the working copy of 'export/news.html', LF will be replaced by CRLF the next time Git touches it
+
+
+----------
+
+Fri Apr 07 2023 14:00:18 GMT+1000 (Australian Eastern Standard Time)
+
+remote: This repository was archived so it is read-only.
+fatal: unable to access 'https://github.com/billyyythekid21/wu-tang-world.git/': The requested URL returned error: 403
+
+
+----------
+
+Fri Apr 07 2023 14:01:11 GMT+1000 (Australian Eastern Standard Time)
+
+fatal: not a git repository (or any of the parent directories): .git
+
+
+----------
+
+Fri Apr 07 2023 14:01:11 GMT+1000 (Australian Eastern Standard Time)
+
+fatal: not a git repository (or any of the parent directories): .git
+
+
+----------
+
+Fri Apr 07 2023 14:01:11 GMT+1000 (Australian Eastern Standard Time)
+
+fatal: not a git repository (or any of the parent directories): .git
+
+
+----------
+
+Fri Apr 07 2023 14:03:13 GMT+1000 (Australian Eastern Standard Time)
+
+fatal: Unable to create 'C:/Users/WU-0015/Documents/billyyythekid21.github.io/.git/index.lock': No such file or directory
+
+
+----------
+
+Fri Apr 07 2023 14:03:13 GMT+1000 (Australian Eastern Standard Time)
+
+fatal: Unable to create 'C:/Users/WU-0015/Documents/billyyythekid21.github.io/.git/index.lock': No such file or directory
+
+
+----------
+
+Fri Apr 07 2023 14:03:21 GMT+1000 (Australian Eastern Standard Time)
+
+error: update_ref failed for ref 'refs/remotes/origin/main': cannot lock ref 'refs/remotes/origin/main': Unable to create 'C:/Users/WU-0015/Documents/billyyythekid21.github.io/.git/refs/remotes/origin/main.lock': No such file or directory
+
+
+----------
+
+Fri Apr 07 2023 14:03:21 GMT+1000 (Australian Eastern Standard Time)
+
+Everything up-to-date
+
+
