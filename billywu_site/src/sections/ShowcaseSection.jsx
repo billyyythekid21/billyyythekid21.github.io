@@ -42,7 +42,7 @@ const ShowcaseSection = () => {
     }, []);
 
     return (
-        <div id="work" ref={sectionRef} className="app-showcase">
+        <div id="projects" ref={sectionRef} className="app-showcase">
             <div className="w-full">
                 <div className="showcaselayout">
                     <div className="first-project-wrapper" ref={project1Ref}>
@@ -64,10 +64,10 @@ const ShowcaseSection = () => {
                             <div className="image-wrapper bg-[#FFEFDB]">
                                 <img
                                     src="/images/project2.png"
-                                    alt="Gesture Media Control"
+                                    alt="Wavre"
                                 />
                             </div>
-                            <h2>Gesture Media Control</h2>
+                            <h2>Wavre</h2>
                         </div>
 
                         <div className="project" ref={project3Ref}>

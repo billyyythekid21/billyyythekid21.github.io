@@ -291,7 +291,7 @@ section {
     }
 
     .timeline-wrapper {
-        @apply absolute top-0 xl:left-[35.5vw] md:left-10 left-5 h-full flex justify-center;
+        @apply absolute top-0 left-0 h-full flex justify-center md:w-20 w-10;
     }
 
     .timeline {
@@ -308,6 +308,10 @@ section {
 
     .gradient-edge {
         @apply w-36 h-full absolute bottom-0 z-20;
+    }
+
+    .tech-card {
+        @apply relative;
     }
 
     .tech-card-animated-bg {
