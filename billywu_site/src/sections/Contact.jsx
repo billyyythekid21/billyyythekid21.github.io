@@ -45,8 +45,8 @@ const Contact = () => {
         <section id="contact" className="flex-center section-padding">
             <div className="w-full h-full md:px-10 px-5">
                 <TitleHeader
-                    title="Get in Touch – Let’s Connect"
-                    sub="💬 Have questions or ideas? Let’s talk! 🚀"
+                    title="Get in Touch with Billy!"
+                    sub="Have questions, ideas, or just want to say hello? Let’s connect and have a chat!"
                 />
                 <div className="grid-12-cols mt-16">
                     <div className="xl:col-span-5">
@@ -57,14 +57,14 @@ const Contact = () => {
                                 className="w-full flex flex-col gap-7"
                             >
                                 <div>
-                                    <label htmlFor="name">Your name</label>
+                                    <label htmlFor="name">Your Name</label>
                                     <input
                                         type="text"
                                         id="name"
                                         name="name"
                                         value={form.name}
                                         onChange={handleChange}
-                                        placeholder="What’s your good name?"
+                                        placeholder="What’s your name?"
                                         required
                                     />
                                 </div>
@@ -89,7 +89,7 @@ const Contact = () => {
                                         name="message"
                                         value={form.message}
                                         onChange={handleChange}
-                                        placeholder="How can I help you?"
+                                        placeholder="What would you like to chat about today?"
                                         rows="5"
                                         required
                                     />
@@ -99,7 +99,7 @@ const Contact = () => {
                                     <div className="cta-button group">
                                         <div className="bg-circle" />
                                         <p className="text">
-                                            {loading ? "Sending..." : "Send Message"}
+                                            {loading ? "Sending..." : "Send"}
                                         </p>
                                         <div className="arrow-wrapper">
                                             <img src="/images/arrow-down.svg" alt="arrow" />

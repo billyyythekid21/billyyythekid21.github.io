@@ -1,5 +1,5 @@
 import React from 'react'
-import {socialImgs} from "../constants/index.js";
+import { socialImgs } from '../constants/index.js'
 
 const Footer = () => {
     return (
@@ -11,10 +11,16 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className="socials">
-                    {socialImgs.map((img) => (
-                        <a className="icon" target="_blank" href={img.url} key={img.url}>
-                            <img src={img.imgPath}/>
-                        </a>
+                    {socialImgs.map(({ name, url, icon }) => (
+                        <a
+                            className="icon"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href={url}
+                            key={name}
+                            aria-label={name}
+                            dangerouslySetInnerHTML={{ __html: icon }}
+                        />
                     ))}
                 </div>
                 <div className="flex flex-col justify-center md:items-end items-center">

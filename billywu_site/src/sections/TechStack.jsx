@@ -24,7 +24,7 @@ const TechStack = () => {
         <div id="skills" className="flex-center section-padding mt-10! md:mt-20!">
             <div className="w-full h-full md:px-10 px-5">
                 <TitleHeader
-                    title="My Preferred Tech Stack"
+                    title="My Tech Stacks"
                     sub="My skills!"
                 />
 

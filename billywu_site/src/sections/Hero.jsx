@@ -26,8 +26,9 @@ const Hero = () => {
                 <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
                     <div className="flex flex-col gap-7">
                         <div className="hero-text">
+                            <h1>Hi, I'm Billy,</h1>
                             <h1>
-                                Shaping
+                                a
                                 <span className="slide">
                                     <span className="wrapper">
                                         {words.map((word) => (
@@ -43,14 +44,14 @@ const Hero = () => {
                                     </span>
                                 </span>
                             </h1>
-                            <h1>into Real Projects</h1>
-                            <h1>that Deliver Results</h1>
+                            <h1>No shortcuts.</h1>
+                            <h1>No excuses.</h1>
                         </div>
                         <p className="text-white-50 md:text-sl relative z-10 pointer-events-none">
-                            Hi, I'm Billy Wu.
+                            Based in Melbourne, Australia.
                         </p>
                         <Button
-                            text="See my work"
+                            text="Check it out!"
                             className="md:w-80 md:h-16 w-60 h-12"
                             id="Button"
                         />

@@ -6,16 +6,22 @@ import ExperienceSection from "./sections/ExperienceSection.jsx";
 import TechStack from "./sections/TechStack.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./sections/Footer.jsx";
+import AboutSection from "./sections/AboutSection.jsx";
+import GearSection from "./sections/GearSection.jsx";
 
 const App = () => {
     return (
         <>
             <NavBar />
             <Hero />
+            <AboutSection />
             <ShowcaseSection />
             <FeatureCards />
+            {/*
             <ExperienceSection />
+            */}
             <TechStack />
+            <GearSection />
             <Contact />
             <Footer />
         </>

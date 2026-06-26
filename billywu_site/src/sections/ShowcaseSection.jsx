@@ -47,14 +47,18 @@ const ShowcaseSection = () => {
                 <div className="showcaselayout">
                     <div className="first-project-wrapper" ref={project1Ref}>
                         <div className="image-wrapper">
-                            <img src="/images/project1.png" alt="Burnley" />
+                            <img src="/images/projects/burnleyaiscreenshot1.png" alt="Burnley" />
                         </div>
                         <div className="text-content">
                             <h2>
                                 Burnley
                             </h2>
                             <p className="text-white-50 md:text-xl">
-                                Burnley Discord Bot
+                                A Python Discord bot that provides essential Discord server moderation utilities,
+                                act as an AI chatbot (provided by Google AI) and can retrieve internet memes and
+                                Wikipedia entries, play music, simulate a chess match between two Discord users,
+                                summarise messages,
+                                act as a virtual 8 ball, and function as a simple calculator.
                             </p>
                         </div>
                     </div>
@@ -63,7 +67,7 @@ const ShowcaseSection = () => {
                         <div className="project" ref={project2Ref}>
                             <div className="image-wrapper bg-[#FFEFDB]">
                                 <img
-                                    src="/images/project2.png"
+                                    src="/images/projects/wavre.png"
                                     alt="Wavre"
                                 />
                             </div>
@@ -72,10 +76,11 @@ const ShowcaseSection = () => {
 
                         <div className="project" ref={project3Ref}>
                             <div className="image-wrapper bg-[#FFE7EB]">
-                                <img src="/images/project3.png" alt="CSOC" />
+                                <img src="/images/projects/comingsoon.jpg" alt="CSOC" />
                             </div>
                             <h2>CSOC</h2>
                         </div>
+
                     </div>
                 </div>
             </div>
