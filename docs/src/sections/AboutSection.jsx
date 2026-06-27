@@ -79,7 +79,7 @@ const AboutSection = () => {
                         Bachelor of Computer Science Advanced (Honours) at Monash University.
                     </p>
                     <p className="text-white-50 md:text-xl text-lg">
-                        Everything will be (and always have been) in safe hands — no BS, no excuses.
+                        Everything will be (and always have been) in safe hands, no matter what.
                     </p>
                 </div>
 

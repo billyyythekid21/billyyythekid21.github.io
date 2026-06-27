@@ -44,8 +44,7 @@ const Hero = () => {
                                     </span>
                                 </span>
                             </h1>
-                            <h1>No shortcuts.</h1>
-                            <h1>No excuses.</h1>
+                            <h1>All In. No regrets.</h1>
                         </div>
                         <p className="text-white-50 md:text-sl relative z-10 pointer-events-none">
                             Based in Melbourne, Australia.
